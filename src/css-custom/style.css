@@ -1,0 +1,27 @@
+.bg-color-custom {
+  background: #000101;
+}
+.color-custom{
+  color:#E7589A !important;
+}
+.conten-custom{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+/*.content1::before {
+  content: '1';
+  background: #E7589A !important;
+  width: 150px;
+  height: 125px;
+  position: absolute;
+  left: 0;
+  top: 60%;
+  transform: translateY(-50%);
+}*/
+.sep {
+  width: 20px;
+  height: 1px;
+  display: block;
+  background: #ffffff80;
+}
