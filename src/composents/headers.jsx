@@ -10,13 +10,13 @@ export default function Navbar() {
       <div className=" mx-auto flex justify-between items-center">
         
         {/* LOGO (Gauche) */}
-        <Link to="/" className="text-xl font-extrabold tracking-wider bg-gradient-to-r from-netyPink to-netyBlue bg-clip-text text-transparent">
+        <Link to="/new-ntk-react" className="text-xl font-extrabold tracking-wider bg-gradient-to-r from-netyPink to-netyBlue bg-clip-text text-transparent">
           <img className="w-[150px]" src={logo}/>
         </Link>
 
         {/* LIENS DU MENU (Centre - Caché sur mobile) */}
         <div className="hidden md:flex items-center space-x-8 text-sm gap-8 font-medium text-gray-300 ">
-          <Link to="/" className="hover:text-netyPink transition-colors duration-200">Accueil</Link>
+          <Link to="/new-ntk-react" className="hover:text-netyPink transition-colors duration-200">Accueil</Link>
           <Link to="/notre-approche" className="hover:text-netyPink transition-colors duration-200">Notre approche</Link>
           <Link to="/services" className="hover:text-netyPink transition-colors duration-200">Services & Tarifs</Link>
           <Link to="/portfolio" className="hover:text-netyPink transition-colors duration-200">Réalisations</Link>

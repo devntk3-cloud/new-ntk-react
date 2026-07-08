@@ -19,7 +19,7 @@ function App() {
       
       {/* Définition de tes routes */}
       <Routes>
-        <Route path="/" element={<Home/>} />
+        <Route path="/new-ntk-react" element={<Home/>} />
         <Route path="/contact" element={<ContactSection/>}/>
          <Route path="/services" element={<Apropos/>}/>
       </Routes>
